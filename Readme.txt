@@ -1,9 +1,13 @@
-Matlab Version (minimum R2018b) 
---------------------------------
+# DAQData_Matlab
+Read and plot binary data files of centrifuge tests conducted at Center for Geotechnical Modeling at @UCDavis
 
-You should be able to extract and read data from the binary files with the code that I shared with you last time (also attached here). The shared archived folder consist of two Matlab files:
+## Requirements
+Matlab Version (> R2018b) 
+
+## Instructions to use
+
+The shared archived folder consist of two Matlab files:
  
+1) *LoadData.m* – contains the code for reading the binary file and loading sensor data in the memory. The variables corresponding to the sensor name starts with “V_” followed by the sensor name. If the sensor name (in excel config file) has any spaces or dash, the corresponding characters in sensor variable name is replaced with underscore ‘_’.
 
-LoadData.m – contains the code for reading the binary file and loading sensor data in the memory. The variables corresponding to the sensor name starts with “V_” followed by the sensor name. If the sensor name (in excel config file) has any spaces or dash, the corresponding characters in sensor variable name is replaced with underscore ‘_’.
-
-ProcessData.m – it is the main program where actual manipulation is done. It specifies the filename, calls the LoadData.m to load the sensor data. The load can then be further manipulated as per the user.
+2) *ProcessData.m* – it is the main program where actual manipulation is done. It specifies the filename, calls the LoadData.m to load the sensor data. The load can then be further manipulated as per the user.
