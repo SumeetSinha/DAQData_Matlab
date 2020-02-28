@@ -1,9 +1,9 @@
 clc; clear all; close all;
 
 %User Inputs
-%filename='07052019@140737@140838@999.0rpm.bin' ; %fastdata filename
-%filename='07052019@140737.bin' ; %slow data filename
-filename='01292020@144006.bin' ; %slow data filename
+%filename='./Binary_Data_Files/07052019@140737@140838@999.0rpm.bin' ; %fastdata filename
+%filename='./Binary_Data_Files/07052019@140737.bin' ; %slow data filename
+filename='./Binary_Data_Files/01292020@144006.bin' ; %slow data filename
 
 % load the data in the memory with variables as sensor names appended with character "V_"
 % requires LoadData.m in the working directory
