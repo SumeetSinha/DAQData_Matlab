@@ -15,6 +15,6 @@ The shared archived folder consist of two Matlab files:
 
 3) *Script_Bin_To_Text* - contains stand alone Matlab scripts for converting the binary data files to text files. The scripts can be used to convert more than one binary files to text files. Steps to use the 
 
-- Just place all the binary files in the Test/BinFile directory
-- Run ConvertBinaryToTextFile.m
-- The corresponding text files are converted in Test/TXTFile directory
+	- Just place all the binary files in the Test/BinFile directory
+	- Run ConvertBinaryToTextFile.m
+	- The corresponding text files are converted in Test/TXTFile directory
