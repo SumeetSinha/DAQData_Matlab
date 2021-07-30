@@ -18,3 +18,7 @@ The shared archived folder consist of two Matlab files:
 	- Just place all the binary files in the Test/BinFile directory
 	- Run ConvertBinaryToTextFile.m
 	- The corresponding text files are converted in Test/TXTFile directory
+
+---
+
+Send your comments, bugs, issues and features to add to [Sumeet Kumar Sinha](http://www.sumeetksinha.com) at sumeet.kumar507@gmail.com.
