@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/243871097.svg)](https://zenodo.org/badge/latestdoi/243871097)
+[![DOI](https://zenodo.org/badge/243871097.svg)](https://zenodo.org/badge/latestdoi/243871097) [![View DAQData_Matlab on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103300-daqdata_matlab)
 
 # DAQData_Matlab
 Read and plot binary data files of centrifuge tests conducted at Center for Geotechnical Modeling at @UCDavis
